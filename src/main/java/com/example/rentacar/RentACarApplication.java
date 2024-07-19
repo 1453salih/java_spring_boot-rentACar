@@ -11,3 +11,5 @@ public class RentACarApplication {
     }
 
 }
+//Brand--> Marka
+//Car --> Araba
