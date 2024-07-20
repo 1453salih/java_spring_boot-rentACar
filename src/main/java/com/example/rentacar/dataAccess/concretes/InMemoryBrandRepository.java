@@ -2,10 +2,11 @@ package com.example.rentacar.dataAccess.concretes;
 
 import com.example.rentacar.dataAccess.abstracts.BrandRepository;
 import com.example.rentacar.entities.concretes.Brand;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
-
+@Repository //Bu sınıf bir dataAccess nesnesidir
 public class InMemoryBrandRepository implements BrandRepository {
 
     //Liste Oluştur
